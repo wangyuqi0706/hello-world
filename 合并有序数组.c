@@ -6,9 +6,6 @@ int main()
 	int m, n;
 	scanf_s("%d %d", &m, &n);
 	int a[500],b[500], c[1000],t;
-	//a = (int*)malloc(m * sizeof(int));
-	//b = (int*)malloc(n * sizeof(int));
-	//c = (int*)malloc((m + n) * sizeof(int));
 	for (int i = 0; i < m; i++)
 	{
 		scanf_s("%d", &a[i]);
